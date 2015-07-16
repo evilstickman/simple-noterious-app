@@ -1,3 +1,4 @@
+
 <div class="login-wrap">
   <form
     class="form-signin"
@@ -75,5 +76,13 @@
       </a>
     </div>
   </div>
-
 </div>
+<div>
+</div>
+
+<input ng-model="photo"
+       onchange="file_changed(this)"
+       type="file" accept="*/*" />
+
+       <button ng-onclick="file_changed(this)">Upload</button>
+
